@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment 1</title>
+    <style>
+        body {
+            background-color: Gold
+; /* Set a background color */
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .main-heading {
+            text-align: center; /* Center align the main heading */
+        }
+        img {
+         margin: 10px;
+            width: 150px; /* Resize images */
+            height: auto;
+        }
+        hr {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Heading -->
+    <h1 class="main-heading">TG PHOTOS</h1>
+    <!-- Subheading -->
+    <h2>Let discover the nature</h2>
+    </p>
+    <!-- Horizontal Line -->
+    <hr>
+    <!-- Images -->
+   <h3>Image Gallery</h3>
+    <img src="https://images.unsplash.com/photo-1728782595111-d521eab9bd93?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5OTIyODF8&ixlib=rb-4.0.3&q=85150" alt="Image 1" style="float: left;">
+    <img src="https://images.unsplash.com/photo-1734443837628-d5a0124a3846?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5OTIyODF8&ixlib=rb-4.0.3&q=85" alt="Image 2" style="display: block; margin: 0 auto;">
+    <img src="https://images.unsplash.com/photo-1548783102-9eed000b70ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5OTI0NDh8&ixlib=rb-4.0.3&q=85" alt="Image 3" style="float: right;">
+    <br style="clear: both;"> <!-- Clear floats -->
+    <a href="https://via.placeholder.com/150">
+       <img src="https://images.unsplash.com/photo-1621352152645-61f4835b081b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5OTI0NDh8&ixlib=rb-4.0.3&q=85" alt="">
+    </a>
+
+    <!-- Horizontal Line -->
+
+    <hr>
+    <!-- Preformatted Text -->
+    <h3>Preformatted Text</h3>
+    <pre>
+Sisi tunahusika 
+na upigaji wa picha na video production kwa bei nafuu sana wasiliana nasi kwa huduma bora na gharama nafuu
+    </pre>
+    <!-- Links -->
+    <h3>Useful Links</h3>
+     <ul>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+
+        <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+        <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+w.google.com" target="_blank">Google</a></li>
+        <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+        <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+
+    </p>
+    <!-- Horizontal Line -->
+    <hr>
+       <ul>
+        <li>Video yenye urefu zaidi ya masaa Matano bei maelewano</li>
+        <li>Video yenye urefu chini ya dakika 60 bei maelewano</li>
+    </ul>
+    <h4>Definition List</h4>
+    <dl>
+        <dt>HTML</dt>
+        <dd>A markup language for creating web pages.</dd>
+        <dt>CSS</dt>
+        <dd>A style sheet language for designing web pages.</dd>
+    </dl>
+</body>
+        <li>Video yenye urefu chini ya dakika 60 bei maelewano</li>
+    </ul>
+    <h4>MAWASILIANO</h4>
+    <dl>
+        <dt>Tupigie kupitia  namba 0676385318</dt>
+        <dd>WEKA ORDER YAKOA MAPEMA</dd>
+        <dt>SOCIAL MEDIAS</dt>
+        <dd>Tiktok:TG_photos
+             Instagram TG OMORI;</dd>
+    </dl>
+</body>
+</html>
+</html>  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .error { color: red; }
+        .success { color: green; }
+    </style>
+
+<h1>User Registration Form</h1>
+<form id="registrationForm">
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" name="fullName" required>
+    <span class="error" id="nameError"></span><br><br>
+
+    <label for="regNumber">Registration Number (BCS-00-0000-0000):</label>
+    <input type="text" id="regNumber" name="regNumber" required>
+    <span class="error" id="regError"></span><br><br>
+
+    <label for="sex">Sex:</label>
+    <select id="sex" name="sex" required>
+        <option value="">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <span class="error" id="emailError"></span><br><br>
+
+    <label for="region">Region:</label>
+    <select id="region" name="region" required>
+        <option value="">Select Region</option>
+        <option value="region1">Region 1</option>
+        <option value="region2">Region 2</option>
+    </select><br><br>
+
+    <label for="district">District:</label>
+    <select id="district" name="district" required>
+        <option value="">Select District</option>
+    </select><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <span class="error" id="passwordError"></span><br><br>
+
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required>
+    <span class="error" id="confirmPasswordError"></span><br><br>
+
+    <button type="submit">Register</button>
+    <span class="success" id="successMessage"></span>
+</form>
+
+<script>
+$(document).ready(function() {
+    // Dynamic loading of districts based on selected region
+    $('#region').change(function() {
+        var region = $(this).val();
+        $('#district').empty().append('<option value="">Select District</option>');
+        if (region) {
+            // Simulating an Ajax call
+            var districts = (region === 'region1') ? ['District 1A', 'District 1B'] : ['District 2A', 'District 2B'];
+            $.each(districts, function(index, value) {
+                $('#district').append('<option value="' + value + '">' + value + '</option>');
+            });
+        }
+    });
+
+    // Form validation
+    $('#registrationForm').on('submit', function(event) {
+        event.preventDefault();
+        var isValid = true;
+        $('.error').text('');
+
+        // Full Name Validation
+        var fullName = $('#fullName').val();
+        if (!fullName.match(/^[a-zA-Z\s]+$/)) {
+            $('#nameError').text('Please enter a valid full name.');
+            isValid = false;
+        }
+
+        // Registration Number Validation
+        var regNumber = $('#regNumber').val();
+        if (!regNumber.match(/^BCS-\d{2}-\d{4}-\d{4}$/)) {
+            $('#regError').text('Registration number must be in the format BCS-00-0000-0000.');
+            isValid = false;
+        }
+
+        // Email Validation
+        var email = $('#email').val();
+        if (!email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+            $('#emailError').text('Please enter a valid email address.');
+            isValid = false;
+        }
+
+        // Password Validation
+        var password = $('#password').val();
+        var confirmPassword = $('#confirmPassword').val();
+        if (password.length < 8 || !/[!@#$%^&*]/.test(password)) {
+            $('#passwordError').text('Password must be at least 8 characters long and contain a special character.');
+            isValid = false;
+        }
+        if (password !== confirmPassword) {
+            $('#confirmPasswordError').text('Passwords do not match.');
+            isValid = false;
+        }
+
+        // If all validations pass
+        if (isValid) {
+            $('#successMessage').text('Registration successful!');
+            // Here you can add code to submit the form data to the server
+        }
+    });
+});
+</script>
+
+</body>
+</html>
+  
